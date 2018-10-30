@@ -1,0 +1,45 @@
+.social
+{
+    margin-left: 0px;
+    width: 45px;
+}
+.social:hover{
+    width: 50px;
+}
+
+body
+{
+    background: #00716C url(../img/fondo.jpg) fixed repeat-x 0px 78px;
+    background-size: cover;
+}
+
+.redes-sociales
+{
+    margin-top: 70px;
+}
+
+nav{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-large
+{
+    width: 170px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.galeria
+{
+    margin-top: 25px;
+}
+@media (max-width: 600px) 
+{
+    .btn-large
+    {
+        width: 35px;
+        padding: 3px;
+    }
+}
